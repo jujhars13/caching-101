@@ -1,13 +1,13 @@
 {
   "name": "caching-demo",
   "version": "1.0.0",
-  "description": "Demoing caching 101s",
+  "description": "Demoing caching 101",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.19.2",
     "express": "^4.17.1"

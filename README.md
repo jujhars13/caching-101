@@ -1,6 +1,7 @@
-# caching 101 demo
+# Caching 101 demo
 
-Quick and dirty express.js server to demo caching basics
+Quick and dirty express.js server to demo caching basics.
+
 Caches to disk to show performance difference.
 
 ## Why cache

@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
 });
 
 /**
- * cached
+ * cached route
  */
 app.get('/cached', (req, res) => {
   
@@ -32,7 +32,7 @@ app.get('/cached', (req, res) => {
       // cache is empty
       if (err || !data) resolve(null);
 
-      // cache exists - server from there
+      // cache hit - serve from there
       if (data) {
         res.setHeader('cached',cacheStore);
         res.send(data);
@@ -40,7 +40,7 @@ app.get('/cached', (req, res) => {
     });
   })
     .then(() => {
-      // cache miss - so go to origin
+      // cache miss - so go out to origin
       return axios.get(url)
         .then(response => {
           return new Promise((resolve, reject) => {

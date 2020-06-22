@@ -6,7 +6,7 @@ const fs = require('fs');
 const port = process.env.NODE_PORT || 3000;
 const url = 'https://jujhar.com/bikes.json';
 const cacheStore =`${os.tmpdir()}/${new Date().toISOString().replace(/:/, '-')}.json`
-
+console.log({ cacheStore });
 const app = express();
 
 /**

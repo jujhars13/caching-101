@@ -1,6 +1,7 @@
 # caching 101 demo
 
-quick and dirty express.js server to demo caching basics
+Quick and dirty express.js server to demo caching basics
+Caches to disk to show performance difference.
 
 ## Why cache
 
@@ -10,7 +11,7 @@ quick and dirty express.js server to demo caching basics
 
 - databases
 - cdn
-- dns (resolver, authorititave)
+- dns (resolver vs authorititave)
 - application
 - web
 
@@ -19,7 +20,6 @@ quick and dirty express.js server to demo caching basics
 - disk based
 - memory based
 - disk + memory
-
 
 ## to run
 
